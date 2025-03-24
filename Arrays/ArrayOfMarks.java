@@ -12,7 +12,7 @@ public class ArrayOfMarks {
         System.out.print("Enter number of subjects: ");
         int subject = sc.nextInt();
 
-        float[] marks = new float[subject];
+        float marks[] = new float[subject];
         for (int i = 0; i < marks.length; i++) {
             System.out.print("Enter marks of subject " + (i + 1) + ": ");
             marks[i] = sc.nextFloat();
