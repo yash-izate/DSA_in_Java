@@ -4,7 +4,7 @@ public class BinarySearch {
 
     public static int binarySearch(int numArray[], int key) {
         int start = 0;
-        int end = numArray.length;
+        int end = numArray.length - 1;
 
         while (start <= end) {
             int mid = (start + end) / 2;
@@ -37,7 +37,11 @@ public class BinarySearch {
 
         int idx = binarySearch(numbers, key);
 
-        System.out.println("Index for key is: " + idx);
+        if (idx != -1) {
+            System.out.println("Index of key " + key + " is: " + idx);
+        } else {
+            System.out.println("Key not found in the array.");
+        }
 
     }
 }
