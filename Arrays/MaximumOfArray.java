@@ -44,7 +44,7 @@ public class MaximumOfArray {
             i++;
         }
 
-        System.out.println(Arrays.toString(arr));
+        System.out.println("Given Array: " + Arrays.toString(arr));
 
         int max = largest(arr);
 
