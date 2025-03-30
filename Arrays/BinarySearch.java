@@ -33,7 +33,7 @@ public class BinarySearch {
     public static void main(String[] args) {
 
         int numbers[] = { 2, 4, 6, 8, 10, 12, 14, 16 };
-        int key = 6;
+        int key = 14;
 
         int idx = binarySearch(numbers, key);
 
