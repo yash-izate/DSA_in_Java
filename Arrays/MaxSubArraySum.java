@@ -32,6 +32,8 @@ public class MaxSubArraySum {
         System.out.println("Max Sum: " + maxSum);
     }
 
+
+    // Time Complexity = O(n)
     public static void Kadanes(int numbers[]) {
         int maxSum = Integer.MIN_VALUE;
         int currSum = 0;
