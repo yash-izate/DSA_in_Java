@@ -1,7 +1,6 @@
 package Arrays;
 
 // Brute Force approch - Worst time complexity O(n^3)
-
 public class SumSubArray_1 {
 
     public static void printSubArrays(int numbers[]) {
