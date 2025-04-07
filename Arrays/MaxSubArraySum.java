@@ -53,7 +53,7 @@ public class MaxSubArraySum {
     }
 
     public static void main(String[] args) {
-        int numbers[] = { -2, -3, 4, -1, -2, 1, 5, -3 };
+        int numbers[] = { -2, -3, 4, -1, -2, 1, 9, -3 };
 
         // maxSubArraySum(numbers);
         Kadanes(numbers);
